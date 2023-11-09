@@ -12,8 +12,8 @@ if st.button("Search"):
     if search_term:
         url = "https://api.vectara.io:443/v1/query"
         headers = {
-            "x-api-key": st.secrets.api_key,
-            "customer-id": st.secrets.customer_id}
+            "x-api-key": st.secrets["api_key"],
+            "customer-id": st.secrets["customer_id"]}
     
         payload = {
             "query": [
@@ -32,8 +32,8 @@ if st.button("Search"):
                 },
                 "corpusKey": [
                     {
-                        "customerId": st.secrets.customer_id,
-                        "corpusId": st.secrets.corpus_id,
+                        "customerId": st.secrets["customer_id"],
+                        "corpusId": st.secrets["corpus_id"],
                         "semantics": 0,
                         "metadataFilter": "",
                             "lexicalInterpolationConfig": {
