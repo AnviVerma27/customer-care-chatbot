@@ -203,7 +203,6 @@ pyparsing==3.0.9
 pypdf==3.16.0
 PyPDF2==3.0.1
 PyPika==0.48.9
-pypiwin32==223
 pyproj==3.6.0
 pyreadline3==3.4.1
 pyshp==2.3.1
