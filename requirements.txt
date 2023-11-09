@@ -27,7 +27,6 @@ bcrypt==4.0.1
 beautifulsoup4==4.12.2
 bleach==6.0.0
 blinker==1.6.2
-bot-studio==1.4.0
 botocore==1.31.17
 bs4==0.0.1
 cachetools==5.3.1
@@ -38,8 +37,6 @@ cffi==1.15.1
 charset-normalizer==3.2.0
 Chroma==0.2.0
 chroma-hnswlib==0.7.3
-chromadb==0.4.10
-clarifai==9.8.1
 clarifai-grpc==9.8.2
 click==8.1.6
 clip @ git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
