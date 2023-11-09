@@ -13,8 +13,8 @@ if st.button("Search"):
         if search_term:
             url = "https://api.vectara.io:443/v1/query"
             headers = {
-                "x-api-key": 'zqt_xHGhmS1ZgQXJWm4ITnxRrMcyGoWckYtfT8oaSA',
-                "customer-id": '3295781273'}
+                "x-api-key": st.secrets.api_key,
+                "customer-id": st.secrets.customer_id}
     
             payload = {
                 "query": [
@@ -33,8 +33,8 @@ if st.button("Search"):
                     },
                     "corpusKey": [
                         {
-                            "customerId": '3295781273',
-                            "corpusId": '1',
+                            "customerId": st.secrets.customer_id,
+                            "corpusId": st.secrets.corpus_id,
                             "semantics": 0,
                             "metadataFilter": "",
                                 "lexicalInterpolationConfig": {
