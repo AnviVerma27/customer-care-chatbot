@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 absl-py==1.4.0
 aiobotocore==2.5.4
 aiohttp==3.8.5
@@ -314,3 +315,7 @@ xgboost==2.0.1
 yarl==1.9.2
 youtube-comment-scraper-python==1.0.0
 zipp==3.16.2
+=======
+streamlit
+requests
+>>>>>>> 97c4bfeb8d4743081b7e8ab5594909e5795cdde5
