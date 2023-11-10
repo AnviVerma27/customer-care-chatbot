@@ -10,3 +10,5 @@ It can guide you throughout the platform as well as about the upcoming hackathon
 
 ## Screenshot of the application
 
+![Picture1](https://github.com/AnviVerma27/customer-care-chatbot/assets/114463178/b773359a-e1f1-495e-806c-74ae55a75029)
+![Picture2](https://github.com/AnviVerma27/customer-care-chatbot/assets/114463178/0a8c08ca-c66e-4708-bc12-158956d55f66)
